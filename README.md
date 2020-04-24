@@ -7,7 +7,7 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
 ## Download
 
 | Model | PyTorch checkpoint |
-|-|:-------------------------: |:-----------------:|:----------:|
+|-|:-------------------------:|
 |`BioBertPT(all)`  | [Download](https://drive.google.com/open?id=1PrGzj7B0B6rXjPmKoFFOXa1gGjVVHuwA) |
 |`BioBertPT(clin)`  | [Download](https://drive.google.com/open?id=1GIOqxPMxeW8sc4EyQ8s1ol3RFWgsBFte) |
 |`BioBertPT(bio)`  | [Download](https://drive.google.com/open?id=16D0WA1QMoycvA0tR3KyVdMU1-vpw98sp) |
