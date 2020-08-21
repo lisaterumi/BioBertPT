@@ -1,6 +1,6 @@
 ** **This is a work in progress** **
 
-<img src="./logo-biobertpr2.png">
+<img src="./logo-biobertpr2.png" alt="Logo BioBERTpt">
 
 # BioBertPT - Portuguese  Clinical BERT
 
