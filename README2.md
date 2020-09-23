@@ -10,9 +10,9 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
 
 | Model | PyTorch checkpoint |
 |-|:-------------------------:|
-|`BioBertPT(all)`  | [Download](https://drive.google.com/open?id=1PrGzj7B0B6rXjPmKoFFOXa1gGjVVHuwA) |
-|`BioBertPT(clin)`  | [Download](https://drive.google.com/open?id=1GIOqxPMxeW8sc4EyQ8s1ol3RFWgsBFte) |
-|`BioBertPT(bio)`  | [Download](https://drive.google.com/open?id=16D0WA1QMoycvA0tR3KyVdMU1-vpw98sp) |
+|`BioBERTpt (all)`  | [Download](https://drive.google.com/open?id=1PrGzj7B0B6rXjPmKoFFOXa1gGjVVHuwA) |
+|`BioBERTpt (clin)`  | [Download](https://drive.google.com/open?id=1GIOqxPMxeW8sc4EyQ8s1ol3RFWgsBFte) |
+|`BioBERTpt (bio)`  | [Download](https://drive.google.com/open?id=16D0WA1QMoycvA0tR3KyVdMU1-vpw98sp) |
 
 ## Prerequisite
 -----
@@ -28,6 +28,26 @@ Please download [the huggingface implementation of BERT](https://github.com/hugg
 
 ```
 model = BertForTokenClassification.from_pretrained(<bert_directory>)
+```
+
+## Fine-tuning your own model
+-----
+
+To replicate our work, or fine-tune you own model, just do this steps:
+
+```
+git clone https://github.com/huggingface/transformers
+cd transformers
+pip install .
+
+mkdir your-data
+
+# please put the unzipped file in the folder "data-scielo"
+# from https://drive.google.com/file/d/1Hh_FWgKk7TGVp0cKgqy6Hw1vxylwowEQ/view?usp=sharing
+
+python examples/run_language_modeling.py --output_dir=output --model_type=bert \
+    --model_name_or_path=bert-base-multilingual-cased --do_train --train_data_file=data/corpus.txt  --num_train_epochs 15 --mlm \
+	--learning_rate 1e-5  --per_gpu_train_batch_size 16 --seed 666 --block_size=512
 ```
 
 4. For more information, you can refer to these [examples](https://github.com/huggingface/pytorch-pretrained-BERT/tree/master/examples).
