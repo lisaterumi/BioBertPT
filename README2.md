@@ -40,10 +40,9 @@ git clone https://github.com/huggingface/transformers
 cd transformers
 pip install .
 
-mkdir your-data
+mkdir data
 
-# please put the unzipped file in the folder "data-scielo"
-# from https://drive.google.com/file/d/1Hh_FWgKk7TGVp0cKgqy6Hw1vxylwowEQ/view?usp=sharing
+# please put the your corpus file in this folder in a txt format
 
 python examples/run_language_modeling.py --output_dir=output --model_type=bert \
     --model_name_or_path=bert-base-multilingual-cased --do_train --train_data_file=data/corpus.txt  --num_train_epochs 15 --mlm \
