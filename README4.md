@@ -12,10 +12,14 @@ We evaluate our models on SemClinBr, a semantically annotated corpus for Portugu
 
 Complete F1-score results are:
 
-| Entity | Disorders | ChemicalDrugs | Procedures | DiagProced | DiseaseSynd | Findings | Heatlh | Laboratory | Medical | Pharmacologic | Quantitative | Sign | Therapeutic |
-|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
-|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
-|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| Entity / Model | Disorders | ChemicalDrugs | Procedures | DiagProced | DiseaseSynd | Findings | Heatlh | Laboratory | Medical | Pharmacologic | Quantitative | Sign | Therapeutic |
+|BERT multilingual uncased|------|------|------|------|------|------|------|------|------|------|------|------|------|
+|BERT multilingual cased|------|------|------|------|------|------|------|------|------|------|------|------|------|
+|Portuguese BERT large|------|------|------|------|------|------|------|------|------|------|------|------|------|
+|Portuguese BERT base|------|------|------|------|------|------|------|------|------|------|------|------|------|
+|BioBERtpt(bio)|------|------|------|------|------|------|------|------|------|------|------|------|------|
+|BioBERtpt(clin)|------|------|------|------|------|------|------|------|------|------|------|------|------|
+|BioBERtpt(all)|------|------|------|------|------|------|------|------|------|------|------|------|------|
 
 
 ## Download BioBERTpt
