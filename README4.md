@@ -17,7 +17,7 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
 
 ## Download
 
-| Model | PyTorch checkpoint |
+| Model | PyTorch checkpoint | 
 |-|:-------------------------:|
 |`BioBERTpt (all)`  | [Download](https://drive.google.com/open?id=1PrGzj7B0B6rXjPmKoFFOXa1gGjVVHuwA) |
 |`BioBERTpt (clin)`  | [Download](https://drive.google.com/open?id=1GIOqxPMxeW8sc4EyQ8s1ol3RFWgsBFte) |
@@ -25,7 +25,7 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
 
 ## Prerequisite
 -----
-Please download [the huggingface implementation of BERT](https://github.com/huggingface/pytorch-pretrained-BERT).
+Please download the amazin [Huggingface implementation of BERT](https://github.com/huggingface/pytorch-pretrained-BERT).
 
 ## Usage
 -----
