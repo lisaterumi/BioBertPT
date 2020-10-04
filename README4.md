@@ -12,7 +12,7 @@ We evaluate our models on SemClinBr, a semantically annotated corpus for Portugu
 
 Complete F1-score results are:
 
-| Tables   |      Are      |  Cool |
+| Tables   |      Disorders      |  ChemicalDrugs | Procedures | DiagProced | DiseaseSynd | Findings | Heatlh | Laboratory | Medical | Pharmacologic | Quantitative | Sign | Therapeutic |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
