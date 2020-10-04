@@ -6,6 +6,11 @@
 
 This repository contains fine-tuned [BERT](https://github.com/google-research/bert) models trained on the clinical domain for Portuguese language. BERT-multilingual-cased were trained with clinical narratives from Brazilian hospitals and abstracts of scientific papers from Pubmed and Scielo.
 
+<img src="https://github.com/lisaterumi/BioBertPT/blob/master/fluxo.jpg?raw=true"  alt="BioBERTpt development">
+													     
+Clinical notes and scientific biomedical abstracts are fed to a pre-trained BERT multilingual model to create BioBERTpt(clin), BioBERTpt(bio) and BioBERTpt(all). These models are then used to extract information from Portuguese clinical notes.
+
+
 ## Download
 
 | Tables   |      Are      |  Cool |
