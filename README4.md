@@ -19,8 +19,8 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
 
 | Model | Domain | PyTorch checkpoint | 
 |------|-------|:-------------------------:|
-|`BioBERTpt (all)`  | Clinial + Biomedical |  [Download](https://drive.google.com/open?id=1PrGzj7B0B6rXjPmKoFFOXa1gGjVVHuwA) |
-|`BioBERTpt (clin)`  | Clincial | [Download](https://drive.google.com/open?id=1GIOqxPMxeW8sc4EyQ8s1ol3RFWgsBFte) |
+|`BioBERTpt (all)`  | Clinical + Biomedical |  [Download](https://drive.google.com/open?id=1PrGzj7B0B6rXjPmKoFFOXa1gGjVVHuwA) |
+|`BioBERTpt (clin)`  | Clinical | [Download](https://drive.google.com/open?id=1GIOqxPMxeW8sc4EyQ8s1ol3RFWgsBFte) |
 |`BioBERTpt (bio)`  | Biomedical | [Download](https://drive.google.com/open?id=16D0WA1QMoycvA0tR3KyVdMU1-vpw98sp) |
 
 ## Prerequisite
