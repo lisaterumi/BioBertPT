@@ -32,7 +32,7 @@ The table below shows complete F1-score results for each entity in SemClinBr, wh
 
 ## Prerequisite
 -----
-Please download the amazin [Huggingface implementation of BERT](https://github.com/huggingface/pytorch-pretrained-BERT).
+Please download the amazing [Huggingface implementation of BERT](https://github.com/huggingface/pytorch-pretrained-BERT).
 
 ## Usage
 -----
