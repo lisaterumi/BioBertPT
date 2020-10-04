@@ -8,6 +8,15 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
 
 ## Download
 
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+
+## Download
+
 | Model | PyTorch checkpoint |
 |-|:-------------------------:|
 |`BioBERTpt (all)`  | [Download](https://drive.google.com/open?id=1PrGzj7B0B6rXjPmKoFFOXa1gGjVVHuwA) |
@@ -32,7 +41,7 @@ model = BertForTokenClassification.from_pretrained(<bert_directory>)
 
 For more information, you can refer to these [examples](https://github.com/huggingface/pytorch-pretrained-BERT/tree/master/examples).
 
-## Fine-tuning your own model
+## Reproduce BioBERTpt
 -----
 
 To replicate our work, or fine-tune you own model, just do this steps:
@@ -50,3 +59,7 @@ python examples/run_language_modeling.py --output_dir=output --model_type=bert \
     --model_name_or_path=bert-base-multilingual-cased --do_train --train_data_file=data/corpus.txt  --num_train_epochs 15 --mlm \
 	--learning_rate 1e-5  --per_gpu_train_batch_size 16 --seed 666 --block_size=512
 ```
+
+## Citation
+
+(soon)
