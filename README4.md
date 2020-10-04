@@ -6,10 +6,11 @@
 
 This repository contains fine-tuned [BERT](https://github.com/google-research/bert) models trained on the clinical domain for Portuguese language. Pre-trained BERT-multilingual-cased were fine-tuned with clinical narratives from Brazilian hospitals and abstracts of scientific papers from Pubmed and Scielo.
 
-<img src="https://github.com/lisaterumi/BioBertPT/blob/master/fluxo.jpg?raw=true"  alt="BioBERTpt development" size="80%">
-*BioBERTpt development*
+## NER Experiment in SemClinBr Corpora
 
-## Download
+We evaluate our models on SemClinBr, a semantically annotated corpus for Portuguese clinical NER, containing 1,000 labeled clinical notes. These corpus comprehended 100 UMLS semantic types, summarized in 13 groups of entities: Disorders, Chemicals and Drugs, Medical Procedure, Diagnostic Procedure, Disease Or Syndrome, Findings, Health Care Activity, Laboratory or Test Result, Medical Device, Pharmacologic Substance, Quantitative Concept, Sign or Symptom and Therapeutic or Preventive Procedure.
+
+Complete F1-score results are:
 
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
@@ -18,7 +19,7 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
 | col 3 is | right-aligned |    $1 |
 
 
-## Download
+## Download BioBERTpt
 
 | Model | Domain | PyTorch checkpoint | 
 |------|-------|:-------------------------:|
