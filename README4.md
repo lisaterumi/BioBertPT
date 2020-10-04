@@ -10,7 +10,7 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
 
 We evaluate our models on SemClinBr, a semantically annotated corpus for Portuguese clinical NER, containing 1,000 labeled clinical notes. These corpus comprehended 100 UMLS semantic types, summarized in 13 groups of entities: Disorders, Chemicals and Drugs, Medical Procedure, Diagnostic Procedure, Disease Or Syndrome, Findings, Health Care Activity, Laboratory or Test Result, Medical Device, Pharmacologic Substance, Quantitative Concept, Sign or Symptom and Therapeutic or Preventive Procedure.
 
-Complete F1-score results are:
+The Table below shows complete F1-score results for each entity in SemClinB, where the last three models (in italian) are our in-domain models. In bold, the higher values. 
 
 | Entity / Model | Disorders | ChemicalDrugs | Procedures | DiagProced | DiseaseSynd | Findings | Heatlh | Laboratory | Medical | Pharmacologic | Quantitative | Sign | Therapeutic |
 |------|------|------|------|------|------|------|------|------|------|------|------|------|------|
@@ -18,9 +18,9 @@ Complete F1-score results are:
 |BERT multilingual cased|0.782|0.901|0.675|0.519|0.538|0.505|0.412|0.417|0.593|0.593|0.613|0.537|0.486|
 |Portuguese BERT large|0.625|0.782|0.453|0.504|0.575|**0.526**|0.336|0.404|0.514|0.723|0.562|0.552|0.489|
 |Portuguese BERT base|0.784|0.904|0.672|0.556|0.5400|0.500|0.346|0.422|0.537|0.775|0.568|0.538|0.471|
-|BioBERtpt (bio)|0.785|0.894|0.689|0.550|0.575|0.526|**0.459**|0.398|**0.604**|0.724|0.592|0.534|0.501|
-|BioBERtpt (clin)|0.781|**0.911**|0.686|**0.560**|**0.583**|0.521|0.406|**0.453**|0.562|**0.779**|0.593|0.544|0.459|
-|BioBERtpt (all)|**0.791**|0.904|**0.703**|0.548|0.564|0.517|0.403|0.440|0.555|0.747|0.600|**0.566**|**0.513**|
+|*BioBERtpt (bio)*|0.785|0.894|0.689|0.550|0.575|0.526|**0.459**|0.398|**0.604**|0.724|0.592|0.534|0.501|
+|*BioBERtpt (clin)*|0.781|**0.911**|0.686|**0.560**|**0.583**|0.521|0.406|**0.453**|0.562|**0.779**|0.593|0.544|0.459|
+|*BioBERtpt (all)*|**0.791**|0.904|**0.703**|0.548|0.564|0.517|0.403|0.440|0.555|0.747|0.600|**0.566**|**0.513**|
 
 ## Download BioBERTpt
 
