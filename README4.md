@@ -13,8 +13,8 @@ We evaluate our models on [SemClinBr](https://github.com/HAILab-PUCPR/SemClinBr)
 The table below shows complete F1-score results for each entity in SemClinBr, where the last three models (in italian) are our in-domain models. In bold, the higher values. 
 
 | Span <td colspan=13>F1-score of all entity in SemClinBr corpus |
-| Entity / Model | Disorders | ChemicalDrugs | Procedures | DiagProced | DiseaseSynd | Findings | Heatlh | Laboratory | Medical | Pharmacologic | Quantitative | Sign | Therapeutic |
 |------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| Entity / Model | Disorders | ChemicalDrugs | Procedures | DiagProced | DiseaseSynd | Findings | Heatlh | Laboratory | Medical | Pharmacologic | Quantitative | Sign | Therapeutic |
 |BERT multilingual uncased|0.787|0.903|0.670|0.546|0.562|0.503|0.374|0.378|0.559|0.756|**0.607**|0.519|0.487|
 |BERT multilingual cased|0.782|0.901|0.675|0.519|0.538|0.505|0.412|0.417|0.593|0.593|0.613|0.537|0.486|
 |Portuguese BERT large|0.625|0.782|0.453|0.504|0.575|**0.526**|0.336|0.404|0.514|0.723|0.562|0.552|0.489|
